@@ -1,0 +1,11 @@
+numpy>=1.24
+scikit-learn>=1.3        # TF-IDF embeddings (Day 1 baseline, works offline)
+rank-bm25>=0.2.2         # keyword search (Day 2 hybrid retrieval)
+rapidfuzz>=3.0           # fuzzy quote matching for citation verification
+pypdf>=4.0               # PDF loading
+python-dotenv>=1.0
+# Pick ONE LLM provider (or both):
+anthropic>=0.40          # LLM_PROVIDER=anthropic
+openai>=1.40             # LLM_PROVIDER=openai  (also works with Ollama / Groq / any OpenAI-compatible server)
+# Optional upgrade on Day 2 (better semantic search, ~500MB with torch):
+# sentence-transformers>=3.0

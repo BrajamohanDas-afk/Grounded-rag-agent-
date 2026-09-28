@@ -1,0 +1,14 @@
+[
+  {"question": "What efficiency do commercial silicon solar panels typically have?",
+   "expected_sources": ["solar_energy.md"], "must_contain": ["18", "23"], "answerable": true},
+  {"question": "How much did battery pack prices fall between 2010 and 2023?",
+   "expected_sources": ["battery_storage.md"], "must_contain": ["90"], "answerable": true},
+  {"question": "What is the maximum fraction of wind energy a turbine can capture?",
+   "expected_sources": ["wind_power.md"], "must_contain": ["59.3"], "answerable": true},
+  {"question": "Compare the efficiency of solar panels with the round-trip efficiency of lithium-ion batteries.",
+   "expected_sources": ["solar_energy.md", "battery_storage.md"], "must_contain": ["85"], "answerable": true},
+  {"question": "Why is LFP chemistry used for stationary storage?",
+   "expected_sources": ["battery_storage.md"], "must_contain": ["safer"], "answerable": true},
+  {"question": "What is the capacity factor of nuclear power plants?",
+   "expected_sources": [], "must_contain": [], "answerable": false}
+]
